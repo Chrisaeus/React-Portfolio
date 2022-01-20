@@ -1,6 +1,8 @@
 import React from 'react';
 import headshot from '../assets/images/headshot.jpeg';
 
+import Navigation from './Navigation';
+
 function Header() {
   return (
     <header>
@@ -15,13 +17,7 @@ function Header() {
                 </div>
             </figure>
         </div>
-        <nav>
-            <ul>
-                <a href="#aboutMeScroll" id="navAbout"><li><h3>About Me</h3></li></a>
-                <a href="#myWorkScroll" id="navWork"><li><h3>My Work</h3></li></a>
-                <a href="#contactMeScroll" id="navContact"><li><h3>Contact Me</h3></li></a>
-            </ul>
-        </nav>
+        <Navigation />
     </header>
   );
 };
