@@ -3,7 +3,7 @@ import headshot from '../assets/images/headshot.jpeg';
 
 import Navigation from './Navigation';
 
-function Header() {
+function Header({ currentPage, handlePageChange }) {
   return (
     <header>
         <div className="headerMain">
@@ -17,7 +17,7 @@ function Header() {
                 </div>
             </figure>
         </div>
-        <Navigation />
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
   );
 };
