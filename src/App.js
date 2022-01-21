@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-
+      {renderPage()}
       <Footer />
     </>
   );

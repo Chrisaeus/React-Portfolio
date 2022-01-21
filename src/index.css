@@ -120,7 +120,7 @@ margin-inline-end: 1em;
 .headerPad {
 display: block;
 height: 150px;
-margin-top: -150px;
+/* margin-top: -150px; */
 visibility: hidden;
 }
 
