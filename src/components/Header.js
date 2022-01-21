@@ -6,8 +6,8 @@ import Navigation from './Navigation';
 function Header() {
   return (
     <header>
-        <div class="headerMain">
-            <figure class="portraitBox">
+        <div className="headerMain">
+            <figure className="portraitBox">
                 <img id="headShot" alt="Portrait" src={headshot} />
                 <div id="nameBox">
                     <ul>

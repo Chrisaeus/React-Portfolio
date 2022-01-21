@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 // import logo from './logo.svg';
 // import './App.css';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('aboutMe');
+
   return (
-    <Header />
+    <div>
+      <Header />
+      <Footer />
+    </div>
   );
 }
 
