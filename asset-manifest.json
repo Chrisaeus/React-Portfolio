@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.41c9db31.css",
+    "main.js": "/portfolio/static/js/main.0f5b627b.js",
+    "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
+    "static/media/README-Example.gif": "/portfolio/static/media/README-Example.420388d895f138d26217.gif",
+    "static/media/E-Commerce-Back-End.gif": "/portfolio/static/media/E-Commerce-Back-End.0206708ec33f92fd0363.gif",
+    "static/media/Team-Profile-Generator.gif": "/portfolio/static/media/Team-Profile-Generator.5fdc508fbcf085ac2f73.gif",
+    "static/media/headshot.jpeg": "/portfolio/static/media/headshot.79986d807ae4afed0641.jpeg",
+    "static/media/InterActorPic.png": "/portfolio/static/media/InterActorPic.64ac4560c40990d01784.png",
+    "static/media/WeatherDashboardPic.png": "/portfolio/static/media/WeatherDashboardPic.cb7c86d5243b5822cea7.png",
+    "static/media/NoteTakerPic.png": "/portfolio/static/media/NoteTakerPic.4de4f48dae3f9c0a1f6a.png",
+    "static/media/ChristianSadlerResume.pdf": "/portfolio/static/media/ChristianSadlerResume.dd4ff9d8eba73cd63adf.pdf",
+    "static/media/comingsoon.png": "/portfolio/static/media/comingsoon.a1c85aea33b28c94cd46.png",
+    "index.html": "/portfolio/index.html",
+    "main.41c9db31.css.map": "/portfolio/static/css/main.41c9db31.css.map",
+    "main.0f5b627b.js.map": "/portfolio/static/js/main.0f5b627b.js.map",
+    "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41c9db31.css",
+    "static/js/main.0f5b627b.js"
+  ]
+}
