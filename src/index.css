@@ -322,6 +322,43 @@ margin: 0 auto;
   height: 50%;
 }
 
+#resume {
+  font-family: monospace;
+}
+
+#resume a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+}
+thead {
+  text-decoration: underline;
+}
+
+td {
+  padding: 0;
+  height: 5em;
+  text-align: center;
+  margin: 0;
+}
+tr td h2 {
+  border-right: 1px solid white;
+  /* border-left: 1px solid white; */
+  margin: 0;
+}
+tr td:first-child h2 {
+  border-right: 1px solid white;
+  border-left: none;
+  margin: 0;
+}
+tr td:last-child h2 {
+  border-right: none;
+  border-left: none;
+  margin: 0;
+}
+
 /* Fixed footer styling */
 
 footer {

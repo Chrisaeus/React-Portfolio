@@ -26,7 +26,7 @@ export default function Contact() {
     const checkEmail = () => {
         if (!emailRef.current.value) {
             emailErrorRef.current.innerText = " Please enter an e-mail address.";
-        }else if (!validateEmail(emailRef.current.value) && emailRef.current.value != "") {
+        }else if (!validateEmail(emailRef.current.value) && emailRef.current.value !== "") {
             emailErrorRef.current.innerText = " Please enter a valid e-mail address.";
         } else {
             emailErrorRef.current.innerText = "";
@@ -48,7 +48,7 @@ export default function Contact() {
             checkEmail();
             checkMessage();
 
-            if (nameRef.current.value != "" && validateEmail(emailRef.current.value) && messageRef.current.value != "") {
+            if (nameRef.current.value !== "" && validateEmail(emailRef.current.value) && messageRef.current.value !== "") {
                 formRef.current.reset();
             }
     };
