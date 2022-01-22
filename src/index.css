@@ -206,8 +206,6 @@ height: 238px;
 margin: 0;
 }
 
-
-
 .cardTitle {
 background-color: black;
 border-right: 1px solid white;
@@ -308,6 +306,20 @@ align-self: center;
 border-right: 2px solid white; */
 padding: 2px;
 margin: 0 auto;
+}
+
+#contactMe form {
+  display: block;
+  width: 100%;
+}
+
+#contactMe input {
+  width: 25%;
+}
+
+#contactMe #message {
+  width: 50%;
+  height: 50%;
 }
 
 /* Fixed footer styling */
