@@ -261,7 +261,7 @@ border-bottom: 1px solid white;
   filter: grayscale(100%);
 }
 
-#interActor {
+/* #interActor {
 background-image: url("./assets/images/InterActorPic.png");
 -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
@@ -289,7 +289,7 @@ filter: grayscale(100%);
 background-image: url("./assets/images/WeatherDashboardPic.png");
 -webkit-filter: grayscale(100%);
 filter: grayscale(100%);
-}
+} */
 
 /* Coming Soon placeholder */
 .comingSoon {
