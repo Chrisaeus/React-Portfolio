@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Christian Sadler's Portfolio in ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is the ReactJS version of my developer portfolio. It contains a recent(ish) photo, and navigation to reach a list of featured projects, a contact form, and a page listing my skills, known technologies, and a link to download my resume. Icons that link to my GitHub and LinkedIn profiles are located in a static footer that sticks to the bottom of the page.
 
-### `npm start`
+I used my personal developer portfolio as an exercise in transposing a site mainly composed of one HTML file into React. This was useful for learning the differences in what HTML and regular JavaScript allow vs what React is able to use when building a website or app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The main change that was made between the old profile and the new one is the navigation rendering separate components as opposed to scrolling to the corresponding section on the page. Using consistent semantic HTML tags in the original profile made transferring it into ReactJS relatively simple.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Table of Contents
 
-### `npm run build`
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Contributing](#contributing)
+4. [Tests](#tests)
+5. [License](#license)
+6. [Questions](#questions)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. `npm install` to install dependencies
 
-### `npm run eject`
+2. `npm start` to run locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Navigate to localhost:3000 to view profile
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+The profile page opens on the About Me section. Click the nav buttons in the header to navigate around the site.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+About Me: Short bio about myself that I may and probably will update in the future.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+My Work: Portfolio section with a list of cards representing featured projects. Each project card shows the project title and has a GitHub icon in the corner that links to its GitHub repo. The main body of the card links to the deployed application (or also to the GitHub repo in the case of undeployed projects).
 
-### Code Splitting
+Contact Me: A contact form with input sections for name, email, and a message (all required). --This form doesn't function as of Jan. 2022. Email me at christian.sadler@yahoo.com if you need to contact me.--
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Resume: This section shows a list of developer proficiencies and contains a link to download my resume. Everything in this section will continue to be updated.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Any contributions that conform to the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) are welcome!
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Although the functionality of the working parts of this site have been meticulously tested, no actual Node-based tests for the *portfolio* are included in this repo. Tests for the contact form may be included at a later time. Note: the repository does contain tests that come with the create-react-app template and can be ignored for the purposes of using this portfolio template or viewing my portfolio locally.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## License
+
+MIT License
+
+Copyright &copy; 2022 Christian Sadler
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Questions
+
+If you have questions, contact me on [GitHub](https://github.com/Chrisaeus) or send me an e-mail at <christian.sadler@yahoo.com>.
