@@ -2,7 +2,7 @@ const projectList = [
   {
     title: "InterActor",
     image: require("../images/InterActorPic.png"),
-    link: "https://allout004.github.io/GroupProject1/",
+    link: "https://serene-headland-68325.herokuapp.com/",
     gitHub: "https://github.com/Allout004/GroupProject1"
   },
   {
